@@ -13,6 +13,15 @@
 		5136C3901DE76E9300341DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5136C38E1DE76E9300341DAC /* Main.storyboard */; };
 		5136C3921DE76E9300341DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5136C3911DE76E9300341DAC /* Assets.xcassets */; };
 		5136C3951DE76E9300341DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5136C3931DE76E9300341DAC /* LaunchScreen.storyboard */; };
+		5136C3A81DE76EF600341DAC /* changeCamer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C39C1DE76EF600341DAC /* changeCamer.png */; };
+		5136C3A91DE76EF600341DAC /* flashOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C39D1DE76EF600341DAC /* flashOff.png */; };
+		5136C3AA1DE76EF600341DAC /* flashOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C39E1DE76EF600341DAC /* flashOn.png */; };
+		5136C3AB1DE76EF600341DAC /* focusImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C39F1DE76EF600341DAC /* focusImg.png */; };
+		5136C3AC1DE76EF600341DAC /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3A11DE76EF600341DAC /* PlayVideoViewController.m */; };
+		5136C3AD1DE76EF600341DAC /* shootFinish.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C3A21DE76EF600341DAC /* shootFinish.png */; };
+		5136C3AE1DE76EF600341DAC /* ShootVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3A41DE76EF600341DAC /* ShootVideoViewController.m */; };
+		5136C3AF1DE76EF600341DAC /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3A61DE76EF600341DAC /* UIView+Tools.m */; };
+		5136C3B01DE76EF600341DAC /* videoPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 5136C3A71DE76EF600341DAC /* videoPlay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,18 @@
 		5136C3911DE76E9300341DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5136C3941DE76E9300341DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5136C3961DE76E9300341DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5136C39C1DE76EF600341DAC /* changeCamer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changeCamer.png; sourceTree = "<group>"; };
+		5136C39D1DE76EF600341DAC /* flashOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashOff.png; sourceTree = "<group>"; };
+		5136C39E1DE76EF600341DAC /* flashOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashOn.png; sourceTree = "<group>"; };
+		5136C39F1DE76EF600341DAC /* focusImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = focusImg.png; sourceTree = "<group>"; };
+		5136C3A01DE76EF600341DAC /* PlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		5136C3A11DE76EF600341DAC /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
+		5136C3A21DE76EF600341DAC /* shootFinish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shootFinish.png; sourceTree = "<group>"; };
+		5136C3A31DE76EF600341DAC /* ShootVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShootVideoViewController.h; sourceTree = "<group>"; };
+		5136C3A41DE76EF600341DAC /* ShootVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShootVideoViewController.m; sourceTree = "<group>"; };
+		5136C3A51DE76EF600341DAC /* UIView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tools.h"; sourceTree = "<group>"; };
+		5136C3A61DE76EF600341DAC /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = "<group>"; };
+		5136C3A71DE76EF600341DAC /* videoPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoPlay.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,18 @@
 		5136C3841DE76E9300341DAC /* LSVideoRecord */ = {
 			isa = PBXGroup;
 			children = (
+				5136C39C1DE76EF600341DAC /* changeCamer.png */,
+				5136C39D1DE76EF600341DAC /* flashOff.png */,
+				5136C39E1DE76EF600341DAC /* flashOn.png */,
+				5136C39F1DE76EF600341DAC /* focusImg.png */,
+				5136C3A21DE76EF600341DAC /* shootFinish.png */,
+				5136C3A71DE76EF600341DAC /* videoPlay.png */,
+				5136C3A01DE76EF600341DAC /* PlayVideoViewController.h */,
+				5136C3A11DE76EF600341DAC /* PlayVideoViewController.m */,
+				5136C3A31DE76EF600341DAC /* ShootVideoViewController.h */,
+				5136C3A41DE76EF600341DAC /* ShootVideoViewController.m */,
+				5136C3A51DE76EF600341DAC /* UIView+Tools.h */,
+				5136C3A61DE76EF600341DAC /* UIView+Tools.m */,
 				5136C3881DE76E9300341DAC /* AppDelegate.h */,
 				5136C3891DE76E9300341DAC /* AppDelegate.m */,
 				5136C38B1DE76E9300341DAC /* ViewController.h */,
@@ -110,6 +143,7 @@
 				TargetAttributes = {
 					5136C3811DE76E9300341DAC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3PEN2TES2L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +171,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5136C3AD1DE76EF600341DAC /* shootFinish.png in Resources */,
+				5136C3AB1DE76EF600341DAC /* focusImg.png in Resources */,
+				5136C3A81DE76EF600341DAC /* changeCamer.png in Resources */,
 				5136C3951DE76E9300341DAC /* LaunchScreen.storyboard in Resources */,
+				5136C3A91DE76EF600341DAC /* flashOff.png in Resources */,
 				5136C3921DE76E9300341DAC /* Assets.xcassets in Resources */,
 				5136C3901DE76E9300341DAC /* Main.storyboard in Resources */,
+				5136C3B01DE76EF600341DAC /* videoPlay.png in Resources */,
+				5136C3AA1DE76EF600341DAC /* flashOn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5136C3AC1DE76EF600341DAC /* PlayVideoViewController.m in Sources */,
 				5136C38D1DE76E9300341DAC /* ViewController.m in Sources */,
 				5136C38A1DE76E9300341DAC /* AppDelegate.m in Sources */,
 				5136C3871DE76E9300341DAC /* main.m in Sources */,
+				5136C3AF1DE76EF600341DAC /* UIView+Tools.m in Sources */,
+				5136C3AE1DE76EF600341DAC /* ShootVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PEN2TES2L;
 				INFOPLIST_FILE = LSVideoRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSVideoRecord;
@@ -283,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PEN2TES2L;
 				INFOPLIST_FILE = LSVideoRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSVideoRecord;
